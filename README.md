@@ -1,4 +1,4 @@
-# pagehub-dev
+# PageHub
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,157 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-pagehub-dev is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://pagehub.dev/
+PageHub is a free AI‑powered website builder that lets users create, edit, and publish sites using large language model agents such as Claude, ChatGPT, or custom agents. Founded by Will Bowman, the platform offers templates, white‑label options, and a MCP server for AI‑driven content generation. It includes a free tier with 1,000 AI credits and paid plans for higher usage. The service handles hosting, domain connections, and provides developer tools, SDKs, and API access for automation.
+
+**Areas:** AI · Website Builder · No-code · Low-code · SaaS · Free Tier
+
+## PageHub on APIs.io
+
+Everything profiled for PageHub is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/pagehub-dev/](https://apis.io/providers/pagehub-dev/)** — or go straight to one of the APIs or properties below.
+
+### APIs (23)
+
+- [PageHub Blocks API](https://apis.io/apis/pagehub-dev/pagehub-dev-blocks-api/) — The block library and placing a block into a page.
+- [PageHub Chat API](https://apis.io/apis/pagehub-dev/pagehub-dev-chat-api/) — The site's chat bot.
+- [PageHub Collections API](https://apis.io/apis/pagehub-dev/pagehub-dev-collections-api/) — A site's collections and their rows. Reading them publicly is the content API.
+- [PageHub Components API](https://apis.io/apis/pagehub-dev/pagehub-dev-components-api/) — Reusable components (partials) of a site.
+- [PageHub Components library API](https://apis.io/apis/pagehub-dev/pagehub-dev-components-library-api/) — The shared component library (blocks stored as Liquid).
+- [PageHub Content API](https://apis.io/apis/pagehub-dev/pagehub-dev-content-api/) — The public headless content API.
+- [PageHub Domain API](https://apis.io/apis/pagehub-dev/pagehub-dev-domain-api/) — A site's custom domain.
+- [PageHub Emails API](https://apis.io/apis/pagehub-dev/pagehub-dev-emails-api/) — The emails a site sends, and the address they come from.
+- [PageHub Files API](https://apis.io/apis/pagehub-dev/pagehub-dev-files-api/) — A site's draft files (pages, partials, `theme.css`, `site.json`, ...).
+- [PageHub Format API](https://apis.io/apis/pagehub-dev/pagehub-dev-format-api/) — The HTML + Liquid authoring reference.
+- [PageHub Forms API](https://apis.io/apis/pagehub-dev/pagehub-dev-forms-api/) — A site's form submissions and the webhooks that deliver them.
+- [PageHub History API](https://apis.io/apis/pagehub-dev/pagehub-dev-history-api/) — A site's revision timeline, what changed in each version, and restoring one to the draft.
+- [PageHub Media API](https://apis.io/apis/pagehub-dev/pagehub-dev-media-api/) — A site's media library and direct uploads.
+- [PageHub Pages API](https://apis.io/apis/pagehub-dev/pagehub-dev-pages-api/) — The page records of a site: name, slug, URL pattern, SEO, access policy.
+- [PageHub Presets API](https://apis.io/apis/pagehub-dev/pagehub-dev-presets-api/) — Curated theme bundles.
+- [PageHub Releases API](https://apis.io/apis/pagehub-dev/pagehub-dev-releases-api/) — Releases built by publishing.
+- [PageHub Review API](https://apis.io/apis/pagehub-dev/pagehub-dev-review-api/) — Client review comments pinned to a site's preview.
+- [PageHub Sites API](https://apis.io/apis/pagehub-dev/pagehub-dev-sites-api/) — Create, read, update, publish and delete sites.
+- [PageHub Stock API](https://apis.io/apis/pagehub-dev/pagehub-dev-stock-api/) — Public stock image and video search.
+- [PageHub Storefront API](https://apis.io/apis/pagehub-dev/pagehub-dev-storefront-api/) — Stripe catalog, checkout, orders and file downloads.
+- [PageHub Team API](https://apis.io/apis/pagehub-dev/pagehub-dev-team-api/) — Site members and invites.
+- [PageHub Templates API](https://apis.io/apis/pagehub-dev/pagehub-dev-templates-api/) — The template catalog.
+- [PageHub Tenant webhooks API](https://apis.io/apis/pagehub-dev/pagehub-dev-tenant-webhooks-api/) — Called by PageHub on a white-label tenant's own server.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Pagehub Dev Webhooks](https://apis.io/asyncapis/pagehub-dev/pagehub-dev-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [PageHub Agentic Access](https://apis.io/agentic-access/pagehub-dev/pagehub-dev-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [DomainState](https://apis.io/schemas/pagehub-dev/pagehub-dev-domain-state/)
+- [LibraryComponent](https://apis.io/schemas/pagehub-dev/pagehub-dev-library-component/)
+- [Site](https://apis.io/schemas/pagehub-dev/pagehub-dev-site/)
+- [SiteOrder](https://apis.io/schemas/pagehub-dev/pagehub-dev-site-order/)
+- [SiteUpdated](https://apis.io/schemas/pagehub-dev/pagehub-dev-site-updated/)
+- [StorefrontSettings](https://apis.io/schemas/pagehub-dev/pagehub-dev-storefront-settings/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Pagehub Dev Context](https://apis.io/jsonld/pagehub-dev/pagehub-dev-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [PageHub API Rules](https://apis.io/rules/pagehub-dev/pagehub-dev-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [PageHub Authentication](https://apis.io/security/pagehub-dev/pagehub-dev-authentication/)
+- [PageHub Domain Security](https://apis.io/security/pagehub-dev/pagehub-dev-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [PageHub Plans Pricing](https://apis.io/plans/pagehub-dev/pagehub-dev-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://pagehub.dev/)
+- [Documentation](https://pagehub.dev/docs)
+- [Getting started](https://pagehub.dev/developers/mcp)
+- [API reference](https://pagehub.dev/developers/sdk)
+- [Pricing](https://pagehub.dev/pricing)
+- [Support](https://pagehub.dev/contact)
+- [Terms of service](https://pagehub.dev/terms)
+- [Privacy policy](https://pagehub.dev/privacy)
+
+## API Evangelist rating
+
+**Kin Score 63.8** — strong · rubric 0.27.0 · scored 2026-11-20
+
+| Facet | Score |
+|---|---|
+| Discoverability | 67.9 |
+| Contract quality | 68.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 68.3 |
+| Access clarity | 73.2 |
+
+**Agent readiness 53.2** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/pagehub-dev/](https://apis.io/providers/pagehub-dev/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for PageHub: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/pagehub-dev/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
